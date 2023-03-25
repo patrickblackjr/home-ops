@@ -20,7 +20,7 @@ fedora:
     - python3-libselinux
     - python3-pyyaml
 
-ubuntu:
+debian:
   packages:
     - hdparm
     - htop
