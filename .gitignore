@@ -1,3 +1,18 @@
-.env
-node_token
+# Trash
 .DS_Store
+Thumbs.db
+# k8s
+kubeconfig
+# vscode-sops
+.decrypted~*.yaml
+.config.env
+.env
+*.agekey
+*.pub
+*.key
+# Ansible
+xanmanning.k3s*
+# Terraform
+.terraform
+.terraform.tfstate*
+terraform.tfstate*
