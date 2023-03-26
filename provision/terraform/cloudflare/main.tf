@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "domicile"
+
+    workspaces {
+      name = "home-ops"
+    }
+  }
 
   required_providers {
     cloudflare = {
