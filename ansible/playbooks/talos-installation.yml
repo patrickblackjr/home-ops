@@ -1,7 +1,0 @@
----
-- name: Create K8S cluster
-  hosts: k8s
-  tags: k8s
-  gather_facts: false
-  roles:
-    - talos
